@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  Service: MyString
+  Price: MyString
+  Date: 2017-04-14
+  Time: 2017-04-14 21:58:50
+
+two:
+  Service: MyString
+  Price: MyString
+  Date: 2017-04-14
+  Time: 2017-04-14 21:58:50
