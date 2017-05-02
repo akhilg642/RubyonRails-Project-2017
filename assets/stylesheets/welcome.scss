@@ -1,0 +1,180 @@
+
+.dropdown:hover .dropdown-content                            /* to display dropdown button in block */
+{
+    display: block;                       
+	
+}
+.dropdown-content a:hover {background-color: black}           /*to display background color of block in dropdown */
+
+.dropdown-content a                                          //color attributes in dropdown block
+{
+    color: black;
+    padding: 2px 6px;
+    text-decoration: none;
+}
+
+.dropdown-content                                         
+{
+    display: none;                                         //not to display dropdown content initially
+    position: absolute;                                    //to make dropdown content absolute
+	text-decoration: none;
+}
+
+.dropdown                                            
+{
+    position: relative;
+    display: inline-block;
+}
+
+a:hover 
+{
+	color:aqua; 
+	text-decoration:bold;
+}
+
+#navbar{
+	top: 0;
+	left: 0;
+	z-index: 1010;
+	width: 100%;
+	background: #010520;
+}
+
+/*Copyright*/
+.footer-v1 .copyright {
+	background: #222;
+	border-top: 110px;;
+	padding: 10px 0 5px;
+	margin: inherit;
+}
+
+.footer-v1 .copyright p {
+	color: #eee;
+	margin-top: 14px;
+}
+
+.footer-v1 .copyright a {
+	margin: 0 2px;
+}
+
+/*******COMPLETE********/
+
+
+/*Footer-v1
+------------------------------------*/
+
+/*********COMPLETE****/
+a.scrollup:hover
+{
+	opacity:10;
+}
+
+.jumbotron1 {
+              background-color:mediumblue;
+              color: white;
+              padding: 2px 5px;
+	          margin: auto;
+              font-family: Montserrat, sans-serif;
+           }
+.jumbotron2 {
+              background-color:deepskyblue;
+              color: white;
+              padding: 5px 10px;
+	          margin: auto;
+	          height:310px;
+              font-family: Montserrat, sans-serif;
+           }
+
+.jumbotron7 {
+              background-color:deepskyblue;
+              color: white;
+              padding: 5px 10px;
+	          margin: auto;
+	          height:180px;
+              font-family: Montserrat, sans-serif;
+           }
+
+
+
+
+nav a {                                                                          //nav a for home event navbar line
+	position: relative;
+	display: inline-block;
+	color: #fff;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: 400;
+	text-shadow: 0 0 1px rgba(255,255,255,0.3);
+	font-size: 1.35em;
+}
+
+.jumbotron3 {
+              background-color:aquamarine;
+              color: black;
+              padding: 5px 10px;
+	          margin: auto;
+	          height:450px;
+	          width:300px;
+              font-family: Montserrat, sans-serif;
+	          text-align: inherit;
+	          box-sizing: content-box;
+           }
+.jumbotron4 {
+              background-color:crimson;
+              color: wheat;
+              padding: 5px 10px;
+	          margin: auto;
+	          height:200px;
+	          width:1400px;
+              font-family: Montserrat, sans-serif;
+	          text-align: inherit;
+	          box-sizing: content-box;
+           }
+.jumbotron5 {
+              background-color:honeydew;
+              color: white;
+              padding: 5px 10px;
+	          margin: auto;
+	          height:300px;
+	          width:1400px;
+              font-family: Montserrat, sans-serif;
+	          text-align: inherit;
+	          box-sizing: content-box;
+           }
+.jumbotron8 {
+              background-color:honeydew;
+              color: mediumvioletred;
+              padding: 5px 10px;
+	          margin: auto;
+	          height:300px;
+	          width:1490px;
+              font-family: Montserrat, sans-serif;
+	         
+           }
+.wrapper {
+width: 1380px;
+margin-left: 0px ;
+background-position: 0px 0px;
+background-color:dodgerblue;                                                                   /*background color of welcome to jee maon*/          
+text-align: center;                                                                   /*position of home news contact*/
+
+        }   
+
+
+
+.column1, .column2, .column3 {                                                               /*background color of columns*/ 
+width: 290px;
+float:left;
+margin:22px;
+
+}
+
+.flex-container {
+    
+    display: flex;
+    
+    width: 280px;
+    height: 150px;
+    background-color: white;
+    padding:0px;
+}
