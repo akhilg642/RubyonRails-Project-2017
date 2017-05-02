@@ -1,0 +1,15 @@
+<% if notice %>
+<p id="notice"><%= notice %></p>
+<% end %>
+<h1>Your Pragmatic Catalog</h1>
+<% @product1s.each do |product1| %>
+<div class="entry">
+<%= image_tag(product1.image_url) %>
+<h3><%= product1.title %></h3>
+<%= sanitize(product1.description) %>
+<div class="price_line">
+	<span class="price"><%= number_to_currency(product1.price, :unit => "Rs", :format => "%n%u") %></span>
+	<%= button_to 'Add to Cart', line1_items_path(product1_id: product1) %>
+</div>
+</div>
+<% end %>

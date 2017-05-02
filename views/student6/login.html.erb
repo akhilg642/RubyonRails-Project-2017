@@ -1,0 +1,40 @@
+<div class="container">
+    <div class="row">
+        <div class="col-md-offset-5 col-md-4">
+            <div class="form-login">
+            <h4>Fill the Form First </h4>
+			<%= form_for @student6, url: {action: "index"} do |f| %>
+			<%= f.label :Service%>
+			<%= f.text_field :Service, :class => "form-control input-sm chat-input" %>
+			</br>
+			<%= f.label :Price%>
+			<%= f.text_field :Price, :class => "form-control input-sm chat-input" %>
+			</br>
+				
+				<h4>Selected Service</h4>
+<select name="">
+<option value=""selected>Car Cleaning</option>
+</select>
+
+<h4>Selected Price</h4 >
+<select name="">
+<option value=""selected>Rs 1500</option>
+</select>
+<br>
+
+<h4>Select Date</h4>
+<%= text_field_tag :login%>
+
+<h4>Select Time</h4>
+<%= text_field_tag :login %>
+				<br>
+				<div class="btn btn-warning">
+               <%=f.submit"Submit",class:"btn btn-warning" %>
+               </div>
+	
+<% end %>
+				
+			</div>
+		</div>
+	</div>
+</div>

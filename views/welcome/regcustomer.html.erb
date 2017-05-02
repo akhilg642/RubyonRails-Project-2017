@@ -1,0 +1,49 @@
+<div class="wrapper">
+<center>
+	<h2><font color="RED">CUSTOMER DETAILS</font></h2>
+</center>
+</div>
+
+<marquee behavior="scroll" direction="left"><h4><font color="green">Customers Can Add Their Details To Join With Us. </font></h4>
+</marquee>
+
+<div class="column1">
+<div class="jumbotron3">
+<h1>Sign up</h1>
+<%= form_for@customerobj, url: "home" do |f| %>      
+<%= f.label :FirstName %>      
+<%= f.text_field :FirstName %> 
+	<br>
+<%= f.label :LastName %>      
+<%= f.text_field :LastName %>  
+	<br>
+<%= f.label :Emailid %>      
+<%= f.text_field :Emailid %>   
+	<br>
+<%= f.label :PhoneNo %>      
+<%= f.text_field :PhoneNo %>      
+<br>
+	<%= f.label :District %>      
+<%= f.text_field :District %>
+	<br>
+	<%= f.label :City %>      
+<%= f.text_field :City %> 
+	<br>
+<%= f.label :State %>      
+<%= f.text_field :State %>
+	<br>
+<%= f.label :Country %>      
+<%= f.text_field :Country %>
+<br>
+<%= f.label :AadharNo %>      
+<%= f.text_field :AadharNo %>
+<br>
+	<%= f.submit "Create my account", class: "btn btn-primary" %>
+<% end %>	
+	
+<br>
+	</div>
+</div>
+
+
+

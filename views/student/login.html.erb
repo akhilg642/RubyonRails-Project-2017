@@ -1,0 +1,37 @@
+
+
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-offset-5 col-md-3">
+            <div class="form-login">
+            <h4>Welcome to Student Login</h4>
+			<%= form_for @student, url: {action: "index"} do |f| %>
+			<%= f.label :FirstName %>
+			</br>
+			<%= f.text_field :FirstName, :class => "form-control input-sm chat-input" %>
+			
+			<%= f.label :LastName %>
+			</br>
+			<%= f.text_field :LastName, :class => "form-control input-sm chat-input" %>
+			
+			<%= f.label :Emailid %>
+			</br>
+			<%= f.text_field :Emailid, :class => "form-control input-sm chat-input" %>
+			</br>
+			<%= f.label :Password %>
+			
+			
+			<%= f.text_field :Password, :class => "form-control input-sm chat-input" %>
+			</br>
+            <div class="wrapper">
+            <span class="group-btn">     
+               <%= f.submit "Login", :class => "btn btn-primary btn-md" %>
+			</span>
+            </div>
+			<% end %>
+            </div>
+        
+        </div>
+    </div>
+</div>

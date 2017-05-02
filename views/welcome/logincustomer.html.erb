@@ -1,0 +1,35 @@
+<div class="wrapper">
+<center>
+	<h2><font color="RED">CUSTOMER DETAILS</font></h2>
+</center>
+</div>
+
+<marquee behavior="scroll" direction="left"><h4><font color="green">We wont Share or Spam You </font></h4>
+</marquee>
+
+<div class="col-sm-8">
+<div class="column1">
+<div class="jumbotron3">
+<%= form_tag("s") do %>
+<%= label_tag(:g,"Enter First Name :")%>
+<%= text_field_tag :login, '', :class => "form-control" %>
+<% end %>	
+<br>	
+<%= form_tag("s") do %>	
+<%= label_tag(:g,"Enter Last Name :")%>
+<%= text_field_tag :login, '', :class => "form-control" %>
+<% end %>
+<br>
+		
+<%= form_tag("s") do %>
+<%= label_tag(:g,"Enter Aadhar No :")%>
+<%= text_field_tag :login, '', :class => "form-control" %>
+
+<% end %>
+<br><br>
+<center>
+<%= submit_tag("Submit") %>	
+</center>
+	</div>
+	</div>
+</div>

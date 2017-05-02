@@ -1,0 +1,53 @@
+<div class="main-container booking-section">
+    <div class="booking-header">
+        <h1>Book Home cleaning</h1>
+    <h1><span><%= link_to "Next", welcome_booking_path %></span></h1> 
+
+	</div>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col-md-offset-5 col-md-4">
+            <div class="form-login">
+            <h4>Fill the Form First </h4>
+			<%= form_for @student5, url: {action: "index"} do |f| %>
+			<%= f.label :FirstName %>
+			</br>
+			<%= f.text_field :FirstName, :class => "form-control input-sm chat-input" %>
+			</br>
+			<%= f.label :LastName %>
+			</br>
+			<%= f.text_field :LastName, :class => "form-control input-sm chat-input" %>
+		    </br>
+			<%= f.label :Emailid %>
+			</br>
+			<%= f.text_field :Emailid, :class => "form-control input-sm chat-input" %>
+			</br>
+			<%= f.label :Password %>
+			<%= f.text_field :Password, :class => "form-control input-sm chat-input" %>
+			</br>
+            <%= f.label :PhoneNo %>
+			<%= f.text_field :PhoneNo, :class => "form-control input-sm chat-input" %>
+			</br>
+            <%= f.label :city %>
+			<%= f.text_field :city, :class => "form-control input-sm chat-input" %>
+			</br>
+            <%= f.label :State %>
+			<%= f.text_field :State, :class => "form-control input-sm chat-input" %>
+			</br>
+            <%= f.label :country %>
+			<%= f.text_field :country, :class => "form-control input-sm chat-input" %>
+			</br>
+            <%= f.label :AadharNo %>
+			<%= f.text_field :AadharNo, :class => "form-control input-sm chat-input" %>
+			</br>
+            
+                <div class="btn btn-warning">
+               <%=f.submit"Submit",class:"btn btn-warning" %>
+               </div>
+			<% end %>
+            </div>
+        
+        </div>
+    </div>
+</div>
